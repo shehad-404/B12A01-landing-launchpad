@@ -24,6 +24,7 @@ a {
   color: rgb(0, 0, 0);
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .navbar {
   display: flex;
@@ -70,7 +71,8 @@ a {
   max-width: 400px;
 }
 .preview .text p {
-  color: #252432;
+  /* color: #252432; */
+  color: #a9afbb;
 }
 
 .preview-img {
@@ -79,6 +81,12 @@ a {
   border-radius: 40px;
 }
 
+img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: #252432;
+}
 .stats {
   text-align: center;
   background: #E5E7FF;
@@ -101,6 +109,7 @@ a {
 
 .stat-box p {
   margin-top: 0px;
+  color: #a9afbb;
 }
 .testimonials {
   padding: 60px 20px;
@@ -120,6 +129,10 @@ a {
   margin: 0px 0px 0px 10px;
 }
 
+.reviewer small{
+  /* color: #c4cad7; */
+  color: #bfc4cf;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -128,6 +141,7 @@ a {
 }
 
 .card {
+  text-align: left;
   justify-items: left;
   background: #f8f9ff;
   border-radius: 10px;
