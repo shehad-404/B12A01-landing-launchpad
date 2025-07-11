@@ -7,6 +7,8 @@ body {
   line-height: 1.6;
 }
 
+/* Hero Section  */
+
 a {
   text-decoration: none;
 }
@@ -59,6 +61,7 @@ a {
   margin-bottom: 20px;
 }
 
+/* Preview Section  */
 .preview {
   display: flex;
   flex-wrap: wrap;
@@ -87,6 +90,8 @@ img:hover {
   cursor: pointer;
   box-shadow: #252432;
 }
+
+/* Statistics Section */
 .stats {
   text-align: center;
   background: #E5E7FF;
@@ -111,6 +116,8 @@ img:hover {
   margin-top: 0px;
   color: #a9afbb;
 }
+
+/* User Testimonials Section  */
 .testimonials {
   padding: 60px 20px;
   /* background: #fff; */
@@ -154,6 +161,7 @@ img:hover {
   color: gold;
 }
 
+/* Focus Section  */
 .focus {
   padding: 60px 20px;
   background: #fff;
@@ -170,6 +178,8 @@ img:hover {
   border-radius: 30px;
 }
 
+
+/* Contact Section  */
 .contact {
   display: flex;
   justify-content: space-around;
@@ -203,6 +213,7 @@ img:hover {
   font-size: 1em;
 }
 
+/* Footer Section  */
 .footer {
   text-align: center;
   padding: 40px 20px;
