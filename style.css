@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   color: #000;
-  background: #f5f7ff;
+  background: #F5F8FF;
+  /* background: #f5f7ff; */
   line-height: 1.6;
 }
 
@@ -17,9 +18,13 @@ a {
   border: none;
   display: inline-block;
   border-radius: 5px;
-  margin-top: 10px;
 }
-
+.btn:hover {
+  background: #f4d642;
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -38,7 +43,7 @@ a {
 
 .hero {
   text-align: center;
-  padding: 0px 20px 60px;
+  padding: 0px 20px 100px;
   background: url('Assets/Hero-bg.png') center center/cover no-repeat;
 }
 
@@ -62,28 +67,48 @@ a {
 .preview-img {
   max-width: 400px;
   margin-top: 20px;
+  border-radius: 40px;
 }
 
 .stats {
   text-align: center;
-  background: #e5eaff;
-  padding: 60px 20px;
+  background: #E5E7FF;
+  padding: 30px 20px;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
 }
-
 .stat-box {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .stat-box div h2 {
+  font-size: 40px;
   color: #3d5afe;
+  margin: 0px;
 }
 
+.stat-box p {
+  margin-top: 0px;
+}
 .testimonials {
   padding: 60px 20px;
-  background: #fff;
+  /* background: #fff; */
   text-align: center;
+}
+.testimonials .name {
+  display: flex;
+}
+.testimonials .name img{
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.reviewer{
+  margin: 0px 0px 0px 10px;
 }
 
 .cards {
@@ -94,6 +119,7 @@ a {
 }
 
 .card {
+  justify-items: left;
   background: #f8f9ff;
   border-radius: 10px;
   padding: 20px;
@@ -107,14 +133,18 @@ a {
 
 .focus {
   padding: 60px 20px;
-  background: #f5f7ff;
+  background: #fff;
   text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 14px;
 }
 
 .focus-img {
   width: 90%;
   max-width: 600px;
   margin-top: 30px;
+  border-radius: 30px;
 }
 
 .contact {
@@ -122,7 +152,6 @@ a {
   justify-content: space-around;
   align-items: flex-start;
   padding: 60px 20px;
-  background: #f0f3ff;
   flex-wrap: wrap;
 }
 
@@ -152,6 +181,12 @@ a {
   background: #fff;
 }
 
+.logo-2{
+    font-weight: bold;
+    color: #3d5afe;
+    font-size: 70px;
+    margin: 0;
+}
 .footer-nav {
   margin-top: 10px;
 }
